@@ -1,0 +1,21 @@
+h2 {
+    font-family: "";
+    color: red;
+}
+
+body {
+display: flex;
+flex-direction: column;
+
+}
+main {
+    display: flex;
+    flex-direction: row;
+}
+@media (min-width: 700px) {
+body 
+{
+    flex-direction: row; 
+}
+
+}
